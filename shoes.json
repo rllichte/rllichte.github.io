@@ -1,0 +1,147 @@
+{
+  "shoes": [
+    {
+      "model": "Air Max 1 '87",
+      "gender": "men",
+      "colorways": [
+        {
+          "color": "Red/White",
+          "image": "path/to/airmax1_87_red_white.jpg",
+          "links": [
+            {
+              "website": "Nike",
+              "url": "https://www.nike.com/air-max-1-87-red-white",
+              "sizes": {
+                "8": { "price": 150.00, "currency": "USD" },
+                "9": { "price": 155.00, "currency": "USD" },
+                "10": { "price": 160.00, "currency": "USD" }
+              }
+            },
+            {
+              "website": "Foot Locker",
+              "url": "https://www.footlocker.com/air-max-1-87-red-white",
+              "sizes": {
+                "8": { "price": 155.00, "currency": "USD" },
+                "9": { "price": 160.00, "currency": "USD" },
+                "10": { "price": 165.00, "currency": "USD" }
+              }
+            }
+          ]
+        },
+        {
+          "color": "Blue/Grey",
+          "image": "path/to/airmax1_87_blue_grey.jpg",
+          "links": [
+            {
+              "website": "Nike",
+              "url": "https://www.nike.com/air-max-1-87-blue-grey",
+              "sizes": {
+                "8.5": { "price": 150.00, "currency": "USD" },
+                "9.5": { "price": 160.00, "currency": "USD" },
+                "10": { "price": 160.00, "currency": "USD" }
+              }
+            },
+            {
+                "website": "StockX",
+                "url": "https://stockx.com/air-max-1-87-blue-grey",
+                 "sizes": {
+                "8": { "price": 175.00, "currency": "USD" },
+                "9": { "price": 180.00, "currency": "USD" },
+                "10": { "price": 185.00, "currency": "USD" }
+              }
+            }
+          ]
+        }
+      ],
+      "description": "The classic Air Max 1 with retro styling."
+    },
+    {
+      "model": "Ultraboost DNA",
+      "gender": "women",
+      "colorways": [
+        {
+          "color": "Black/White",
+          "image": "path/to/ultraboost_dna_women_black_white.jpg",
+          "links": [
+            {
+              "website": "Adidas",
+              "url": "https://www.adidas.com/ultraboost-dna-women-black-white",
+              "sizes": {
+                "6": { "price": 175.00, "currency": "USD" },
+                "7": { "price": 180.00, "currency": "USD" },
+                "8": { "price": 190.00, "currency": "USD" }
+              }
+            },
+            {
+              "website": "Finish Line",
+              "url": "https://www.finishline.com/ultraboost-dna-women-black-white",
+              "sizes": {
+                "7": { "price": 185.00, "currency": "USD" },
+                "8": { "price": 190.00, "currency": "USD" },
+                "10": { "price": 195.00, "currency": "USD" }
+              }
+            }
+          ]
+        },
+        {
+          "color": "Pink/Grey",
+          "image": "path/to/ultraboost_dna_women_pink_grey.jpg",
+          "links": [
+            {
+              "website": "Adidas",
+              "url": "https://www.adidas.com/ultraboost-dna-women-pink-grey",
+              "sizes": {
+                "7": { "price": 185.00, "currency": "USD" },
+                "9": { "price": 190.00, "currency": "USD" }
+              }
+            }
+          ]
+        }
+      ],
+      "description": "Comfortable running shoe with boost technology for women."
+    },
+    {
+      "model": "Chuck Taylor All Star",
+      "gender": "unisex",
+      "colorways": [
+        {
+          "color": "Black",
+          "image": "path/to/chucktaylor_black.jpg",
+          "links": [
+            {
+              "website": "Converse",
+              "url": "https://www.converse.com/chuck-taylor-all-star-black",
+              "sizes": {
+                "6": { "price": 55.00, "currency": "USD" },
+                "8": { "price": 60.00, "currency": "USD" }
+              }
+            },
+            {
+              "website": "Amazon",
+              "url": "https://www.amazon.com/converse-chuck-taylor-black",
+              "sizes": {
+                "7": { "price": 50.00, "currency": "USD" },
+                "8": { "price": 55.00, "currency": "USD" },
+                "9": { "price": 55.00, "currency": "USD" }
+              }
+            }
+          ]
+        },
+        {
+          "color": "White",
+          "image": "path/to/chucktaylor_white.jpg",
+          "links": [
+            {
+              "website": "Converse",
+              "url": "https://www.converse.com/chuck-taylor-all-star-white",
+              "sizes": {
+                "10": { "price": 60.00, "currency": "USD" }
+              }
+            }
+          ]
+        }
+      ],
+      "description": "The iconic canvas sneaker."
+    }
+  ]
+}

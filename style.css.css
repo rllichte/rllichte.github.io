@@ -1,0 +1,211 @@
+/* Basic Reset & Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+header h1 {
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #6c757d;
+    font-size: 1.1em;
+}
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Shoe Listings Grid */
+.shoe-listings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Responsive grid */
+    gap: 30px;
+}
+
+/* Individual Shoe Card */
+.shoe-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out;
+}
+
+.shoe-card:hover {
+    transform: translateY(-5px);
+}
+
+.shoe-card-header {
+    padding: 20px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.shoe-card-header h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.shoe-gender {
+    font-size: 0.9em;
+    color: #888;
+    text-transform: capitalize;
+    background-color: #e9ecef;
+    padding: 3px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.shoe-description {
+    font-size: 0.95em;
+    color: #555;
+}
+
+.shoe-colorways {
+    padding: 0 20px 20px; /* Add padding */
+}
+
+/* Colorway Section */
+.colorway {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px dashed #eee; /* Separator */
+}
+.colorway:first-child {
+    border-top: none; /* No border for the first colorway */
+    margin-top: 0;
+    padding-top: 15px; /* Adjust padding */
+}
+
+.colorway-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.colorway-image {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    background-color: #f0f0f0; /* Placeholder background */
+}
+
+.colorway-name {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+/* Size and Price Info */
+.size-price-section h4 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #444;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 5px;
+}
+
+.size-block {
+    margin-bottom: 15px;
+}
+
+.size-header {
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-size: 0.95em;
+}
+
+.vendor-price-list {
+    list-style: none;
+    padding-left: 10px; /* Indent vendor list */
+}
+
+.vendor-price-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    font-size: 0.9em;
+    color: #666;
+    border-bottom: 1px dotted #f5f5f5;
+}
+.vendor-price-item:last-child {
+    border-bottom: none;
+}
+
+.vendor-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+.vendor-link:hover {
+    color: #0056b3;
+}
+.vendor-link i {
+    margin-left: 4px;
+    font-size: 0.8em;
+}
+
+.price {
+    font-weight: 500;
+    color: #333;
+}
+
+.cheapest {
+    background-color: #e7f5ff; /* Light blue highlight */
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #0056b3; /* Darker blue text for cheapest */
+    border: 1px solid #bde0fe;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #888;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .shoe-listings-grid {
+        grid-template-columns: 1fr; /* Stack cards on smaller screens */
+    }
+    body {
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 1.8em;
+    }
+}
